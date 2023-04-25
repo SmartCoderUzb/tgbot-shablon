@@ -10,5 +10,9 @@ python -m venv env
 # kerakli modullarni o'rnatish
 pip install -r requirements.txt
 
+# tokenni o'zgartirish
+# data/config.py
+TOKEN = "YOUR TOKEN"
+
 # botni ishga tushirish
 python bot.py
